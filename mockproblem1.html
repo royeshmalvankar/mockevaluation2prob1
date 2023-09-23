@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        #head{
+            margin: auto;
+            height: 80px; 
+            width: 100%;
+            display: flex; 
+            justify-content: space-between;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #head>div{
+            height: 100%;
+            width: 15%;
+            margin-left: 3%;
+            
+           
+        }
+        #head>:nth-child(1){
+            display:inline-block;
+            text-align: center;
+            align-content: center;
+            margin-bottom: 10px;
+            width: 250px;
+            background:linear-gradient(90deg,violet,rgb(64, 119, 230));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #head>div+div{
+            height: 100%;
+            width: 30%;
+            margin-right: 11%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #head>div>div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:16.6%;
+            
+
+        }
+        #head>div>p{
+            font-weight: bolder;
+            font-size: 40px;
+            color: white;
+            }
+        .bts{
+                cursor: pointer;
+                font-size: 22px;
+                background-color: white;
+                border: none;
+                padding: 10px;
+                color: black;;
+                text-align: center;
+                border-radius: 8px;
+                width: 100px ;
+                transition: 0.04s ;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+        .bts:hover{
+                color: blue;
+                }
+        #body{
+                height: 900px; 
+                width: 100%;
+                display: flex;
+                margin-top: 2%; 
+            }
+        #body>div{
+            height: 100%;
+            width: 50%;
+            margin-left: 3%;
+             }
+        #body>div+div{
+            height: auto;
+            width: auto;
+           padding-left: 5%;
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: repeat(2,375px);
+            gap: 40px;
+            
+        }
+        p{
+            font-size: 30px;
+            font-family: Arial, sans-serif;
+            color: rgb(197, 197, 197);
+        }
+        div>p+div{
+            column-gap: 20px;
+            width:900px;
+            height:200px;
+            margin-top: 10%;
+            display: flex;
+        }
+        #body>div+div>div{
+            text-align: left;
+            padding-left: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        h4{
+            font-size: 30px;
+        }
+        #body>div+div>div>img{
+            height:100px;
+            width:100px;
+            padding-top: 10px;
+        }
+        @media all and (max-width:2050px) and (min-width:700px)
+        {
+            #head>div+div>div
+            {
+                padding: 10px;
+            }
+        }
+        
+    </style>
+    <head>
+        <div id="head">
+            <div>
+                <p>StudyLab</p>
+            </div>
+            <div>
+                <div>
+                   <button class="bts"> Home</button>
+                </div>
+                <div>
+                    <button class="bts"> About</button>
+                </div>
+                <div>
+                    <button class="bts">Course</button>
+                </div>
+                <div>
+                    <button class="bts">Instructor</button>
+                </div>
+                <div>
+                    <button class="bts">Blog</button>
+                </div>
+                <div>
+                    <button class="bts">Contact</button>
+                </div>
+            </div>
+        </div>
+    </head>
+    <body>
+        <div id="body">
+            <div>
+                <br>
+                <h5 style="color:rgb(64, 119, 230);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px;">WELCOME TO STUDYLAB</h5>
+                <br>
+                <h1 style="font-size: 60px;font-weight: bolder;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">We Are Studylab An Online <br> Learning Center</h1>
+                <br>
+                <br>
+                <p>A small river named Duden flows by their place and supplies it <br>with the neccessary regelia.It is a paradisematic country, in <br>which roasted parts of sentences fly into mouth.</p>
+                <br>
+                <p>Far far away,behind the word mountain, far from the <br>countries Vokalia and Consonantia, there lie the blind texts. <br>Seperated they live in Bookmarksgrove right at the coast of the <br>semantics, alarge language ocean</p>
+                <div>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/qARXCXvQXKY?autoplay=1"  title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+                <p style="color: black;">Learn anything from studylab,<br>Watch video</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/003/678/261/small/quality-badge-icon-design-medal-and-ribbon-illustration-free-vector.jpg" alt="">
+                    <h4>Top Quality Content</h4>
+                    <br>
+                    <p>A small rivernamed <br>Duden flows by their <br>place and supplies</p>
+                </div>
+                <div>
+                    <img src="https://e7.pngegg.com/pngimages/1003/697/png-clipart-teacher-illustration-training-expert-management-education-learning-skills-certificate-icon-miscellaneous-blue-thumbnail.png" alt="">
+                    <h4>Highly Skilled <br> Instructor</h4>
+                    <br>
+                    <p>A small rivernamed <br>Duden flows by their <br>place and supplies</p>
+                </div>
+                <div>
+                    <img src="https://www.shutterstock.com/image-vector/quiz-world-globe-icon-260nw-630140090.jpg" alt="">
+                    <h4>World Class & Quiz</h4>
+                    <br>
+                    <p>A small rivernamed <br>Duden flows by their <br>place and supplies</p>
+                </div>
+                <div>
+                    <img src="https://static.vecteezy.com/system/resources/previews/010/153/350/original/certificate-icon-sign-symbol-design-free-png.png" alt="">
+                    <h4>Get Certified</h4>
+                    <br>
+                    <p>A small rivernamed <br>Duden flows by their <br>place and supplies</p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
